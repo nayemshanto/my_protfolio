@@ -15,7 +15,7 @@ export const LoadingScreen = ({onComplete}) => {
       }
       setTimeout(() => {
         onComplete();
-      },1500)
+      },1300)
     },100);
     return () => clearInterval(interval);
   },[onComplete]);
@@ -24,7 +24,7 @@ export const LoadingScreen = ({onComplete}) => {
       <div className="mb-4 text-4xl font-mono font-bold">
         {text} <span className="animate-blink ml-1">|</span>
       </div>
-      <div className="w-[300px] h-[2px] bg-gray-800 rounded relative overflow-hidden">
+      <div className="w-[200px] h-[2px] bg-gray-800 rounded relative overflow-hidden">
         <div className="w-[40%] h-full bg-[#0463fa] shadow-xl animate-loading-bar"></div>
       </div>
     </div>
