@@ -38,7 +38,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <a href="#home" className="text-2xl font-bold text-white">
-            nayem.
+            <img src="/assets/nayem.png" alt="logo" />
           </a>
           <div className="hidden md:flex items-center space-x-8 ">
             <a
