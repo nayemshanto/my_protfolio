@@ -1,5 +1,5 @@
 import React from "react";
-import WorkIcon from '@mui/icons-material/Work';
+import WorkIcon from "@mui/icons-material/Work";
 
 const About = () => {
   const frontendSkills = [
@@ -59,9 +59,15 @@ const About = () => {
           </div>
         </div>
         <div className="rounded-lg mt-4 p-8 border-white/10 border hover:-translate-y-1 transition-all">
-          <h3 className="text-xl font-bold mb-4"><WorkIcon/> Work Experience</h3>
-          <li className="text-gray-300">Frondend Developer at Hablu-Programmer (2024 - Present)</li>
-          <li className="text-gray-300">Graphic Designer at Fiverr (2022-Present)</li>
+          <h3 className="text-xl font-bold mb-4">
+            <WorkIcon /> Work Experience
+          </h3>
+          <li className="text-gray-300">
+            Frondend Developer at Hablu-Programmer (2024 - Present)
+          </li>
+          <li className="text-gray-300">
+            Graphic Designer at Fiverr (2022-Present)
+          </li>
           <li className="text-gray-300">1k+ Projects Completed</li>
           <li className="text-gray-300">Happy Client's</li>
           <></>

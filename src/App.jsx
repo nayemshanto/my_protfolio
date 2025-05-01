@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/sections/Home";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import About from "./components/sections/about";
+import Projects from "./components/sections/projects";
 
 function App() {
   const [isLoad, setIsLoad] = useState(false);
@@ -25,6 +26,8 @@ function App() {
             <Route path="/about" element={<About />} /> */}
             <Home/>
             <About/>
+            <Projects/>
+           
             
           
         </div>
