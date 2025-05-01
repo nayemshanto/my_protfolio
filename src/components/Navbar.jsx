@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import { Button } from "@mui/material";
-import { NavLink } from "react-router-dom";
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -38,7 +38,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <a href="#home" className="text-2xl font-bold text-white">
-          <img src={`${import.meta.env.BASE_URL}assets/nayem.png`} alt="Logo" />
+          <img src="/assets/nayem.png" alt="Logo" />
 
           </a>
           <div className="hidden md:flex items-center space-x-8 ">
