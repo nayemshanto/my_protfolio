@@ -5,10 +5,9 @@ import CloseIcon from "@mui/icons-material/Close";
 import { Button } from "@mui/material";
 import { NavLink } from "react-router-dom";
 
-
-
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+
   return (
     <nav className="fixed top-0 w-full bg-[rgba(10,10,10,0.8)] shadow-lg border-b border-white/10 z-40">
       <div className="max-w-7xl mx-auto px-4">
@@ -24,19 +23,19 @@ const Navbar = () => {
               Home
             </NavLink>
             <NavLink
-              to="/?about"
+              to="/about"
               className=" text-gray-300 hover:text-white transition-colors"
             >
               About
             </NavLink>
             <NavLink
-              to="/?services"
+              to="/services"
               className=" text-gray-300 hover:text-white transition-colors"
             >
               Services
             </NavLink>
             <NavLink
-              to="/?contact"
+              to="/contact"
               className=" text-gray-300 hover:text-white transition-colors"
             >
               Contact
